@@ -20,6 +20,7 @@ def test_create_case():
 
     response.status_code_should_be_eq(200)
 
+#удаление
 
 def test_delete_case():
     response = client.make_request(
